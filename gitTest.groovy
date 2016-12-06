@@ -5,5 +5,6 @@ job("gitTest"){
                 		github('rytighe/internet', 'ssh')
                 		credentials('rytighe')
             		}
-    	}
+    		}
+	}
 }
