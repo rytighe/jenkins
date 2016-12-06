@@ -7,4 +7,8 @@ job("gitTest"){
             		}
     		}
 	}
+
+	steps {
+        	maven('-e clean')
+    	}
 }
