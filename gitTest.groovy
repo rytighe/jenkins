@@ -3,7 +3,7 @@ job("gitTest"){
 	scm {
 		git {
 			remote {
-				git(gitUrl)
+				url(gitUrl)
                 		credentials('rytighe')
             		}
     		}
